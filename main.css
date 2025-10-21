@@ -10,27 +10,22 @@ html{
 .header{
    background-color: #011827;
    padding: 0.5rem;
-   height: 144px;
-}
+  }
 .header img{
     width: 128px;
     height: 82px;
-    top: 26px;
-    left: 27px;
-       }
+    float: left;
+       }       
        .header h1{
         color: white;
         font: 'ROBOTO';
         font-weight: bold;
         font-size: 24px;
-        position: absolute;
-        /*width: 78px;
-        height: 84px;*/
-        top: 25px;
-        left: 168px;
+        margin-bottom: 50px;
+    
        }
        .left{
-        height: 500px;
+              text-align: center;
        }
        .left img{
         width: 100%;
@@ -40,76 +35,122 @@ html{
         background-color: #8ACFE5;
         width: 200px;
         height: 33px;
-        position: absolute;
-        top: 455px;
-        left: 91px;
+        margin-top: 25px;
+                       
     }
-    .left a{
-        position: absolute;
-        top: 500px;
-        left: 175px;
+    .left p{
+        margin-bottom: 50px;
+        font-size: 15px;
     }
-    .left img:nth-child(4){
-        width: 73px;
-        height: 72px;
-        float: left;
-        position: absolute;
-        top: 550px;
-        left: 27px;
+    .content img{
+      width: 63px;
+        height: 62px;
+        float: left;  
     }
-   .left p{
-    position: absolute;
-    top: 550px;
-    left: 116px;
+       .content p{
     font-style: italic;
     font: roboto;
-   }
+    font-size: 20px;
+    }
+
    .main h2{
-    font-size: 26px;
+    font-size: 24px;
     font: robota;
    }
    .main img{
-    width: 340px;
+    width: 75%px;
     height: 219px;
-    left: 50px;
+   
    }
    main h3{
     font-size: 20px;
     font: robota;
+          
    }
    .main img:nth-child(4){
     width: 10px;
     height: 10px;
+   
    }
    .main img:nth-child(5){
      width: 10px;
     height: 10px;
+   
    }
 .main img:nth-child(6){
     width: 10px;
     height: 10px;
+   
    }
    .main img:nth-child(7){
      width: 10px;
     height: 10px;
+    
    }
    .main img:nth-child(8){
     width: 10px;
     height: 10px;
+    
    }
   .main p{
-    font-size: 18px;
+    font-size: 15px;
     font-family: robota;
+    
   }
   .main button{
  background-color: #E3170A;
-        width: 100px;
+        width: 150px;
         height: 22px;
         color: white;
         font-size: 16px;
+        float: right;
+        margin-bottom: 200px;
+      
   }
-
+   .tank{
+    text-align: center;
+  }
+  .tank button{
+background-color: #8ACFE5;
+        width: 200px;
+        height: 33px;
+        color: black;
+        float: none;
+        margin-bottom: 10px;
+       margin-top: 50px
+    
+  }
+  .tank p{
+   
+        margin-bottom: 50px;
+        font-size: 15px;
+  }
+    .middle{
+        background-color: #011827;
+        text-align: center;
+    }
+    .middle p{
+        color: white;
+        font-size: 18px;
+        font-family: roboto;
+        text-align: center;
+        padding-top: 50px;
+       
+    }
+    .middle button{
+        border-color: #8ACFE5;
+       color: white;
+        background-color: #011827;
+         width: 200px;
+        height: 33px;
+        margin-bottom: 50px;
+    }
+    .right img{
+        width: 100%;
+        height: 300px;
+    }
 .footer{
   background-color: #011827;
    padding: 0.5rem;
+   color: white;
 }
