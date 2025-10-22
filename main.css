@@ -149,8 +149,87 @@ background-color: #8ACFE5;
         width: 100%;
         height: 300px;
     }
+    .right h4{
+        font-size: 32px;
+        font-family: roboto;
+        font-weight: bold;
+    }
+    .right p{
+        font-size: 20px;
+        font-family: roboto;
+    }
+    .right button{
+       background-color: #E3170A;
+       width: 200px;
+        height: 33px;
+        color: white; 
+        margin-bottom: 25px;
+    }
+    .cornor img{
+         width: 100%;
+        height: 300px
+    }
+    .cornor h5{
+       font-size: 32px;
+        font-family: roboto;
+        font-weight: bold; 
+    }
+    .cornor p{
+     font-size: 20px;
+        font-family: roboto;   
+    }
+    .cornor button{
+     background-color: #E3170A;
+       width: 200px;
+        height: 33px;
+        color: white; 
+        margin-bottom: 50px;    
+    }
 .footer{
-  background-color: #011827;
-   padding: 0.5rem;
+  background-color:#011827;
+       font-size: 15px;
+    font-family: robota;
    color: white;
+   text-align:justify;
+    }
+.footer h5{
+     font-size: 15px;
+    font-family: robota;
+    font-weight: bold;
+    margin-bottom: 0px;
+   padding-top: 50px;
+   padding-left: 5px;
+}
+.footer p{
+ font-size: 15px;    
+    margin-top: 0px;
+    }
+.footer nav ul{
+    list-style: none;
+    font-size: 15px;
+    font-family: robota;
+    color: white;
+    padding-bottom: 50px;
+    }
+.footer nav ul li a{
+  font-weight: bold; 
+  color: white; 
+  text-decoration-line: none;
+  }
+.footer nav ul li:first-child{
+   font-weight: bold; 
+   margin-bottom: 5px;
+}
+.footer nav ul li:nth-child(4){
+    margin-bottom: 15px;
+}
+.footer nav ul li:nth-child(6){
+    margin-bottom: 30px;
+}
+.footer nav ul li:nth-child(7){
+    font-weight: bold; 
+    margin-bottom: 5px;
+}
+.footer nav ul li:last-child{
+   margin-bottom: 30px;
 }
