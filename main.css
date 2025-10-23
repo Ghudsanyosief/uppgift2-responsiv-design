@@ -11,6 +11,9 @@ html{
    background-color: #011827;
    padding: 0.5rem;
   }
+  .header ul{
+    display: none;
+  }
 .header img{
     width: 128px;
     height: 82px;
@@ -31,7 +34,11 @@ html{
         width: 100%;
         height: 274px;
     }
-    .left button{
+    .left #clickbtn{
+        display: none;
+    }
+    .left #clickbtn2{
+        display: inline;
         background-color: #8ACFE5;
         width: 200px;
         height: 33px;
@@ -47,12 +54,17 @@ html{
         height: 62px;
         float: left;  
     }
+    .content img:nth-child(3){
+        display: none;
+    }
        .content p{
     font-style: italic;
     font: roboto;
     font-size: 20px;
     }
-
+    .content p:nth-child(2){
+       display: none; 
+    }
    .main h2{
     font-size: 24px;
     font: robota;
@@ -192,7 +204,7 @@ background-color: #8ACFE5;
    color: white;
    text-align:justify;
     }
-.footer h5{
+.footer h6{
      font-size: 15px;
     font-family: robota;
     font-weight: bold;
@@ -212,8 +224,7 @@ background-color: #8ACFE5;
     padding-bottom: 50px;
     }
 .footer nav ul li a{
-  font-weight: bold; 
-  color: white; 
+   color: white; 
   text-decoration-line: none;
   }
 .footer nav ul li:first-child{
@@ -230,6 +241,109 @@ background-color: #8ACFE5;
     font-weight: bold; 
     margin-bottom: 5px;
 }
-.footer nav ul li:last-child{
-   margin-bottom: 30px;
+.footer ul li a {
+    color: white; 
+  text-decoration-line: none;
+  list-style: none;
+}
+.footer ul li{
+    list-style: none;
+}
+
+@media screen and (min-width: 1200px) {
+  
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    background-color: white;
+}
+
+.header ul{
+    display: block;
+      list-style: none;
+    font-size: 15px;
+    font-family: robota;
+    color: white;
+   display: flex;
+   text-align: center;
+   gap: 70px;
+}
+.header ul li a{
+    color: white; 
+  text-decoration-line: none;
+}
+.header ul li:first-child{
+    padding-left: 130px;
+}
+.left img{
+    margin-bottom: 0px;
+    
+}
+  .left #clickbtn{
+        display: inline;
+        background-color: #E3170A;
+       width: 200px;
+        height: 33px;
+        color: white; 
+    
+    }
+.left p{
+        display: none;
+    }
+    .content{
+        display: flex;
+    }
+  .content img:nth-child(3){
+        width: 63px;
+        height: 62px; 
+    display: inline;
+    
+    }
+.content p:nth-child(2){
+       display: block ;
+    }
+   .right h4{
+        margin-right: 100px;
+    }
+    .right p{
+        margin-right: 100px;
+    }
+    .right button{
+        margin-right: 100px;
+        
+    }
+    .right img{
+       width: 50%; 
+       height: 300px;
+       float: left;
+       margin-right: 100px;
+    }
+        .cornor img{
+         width: 50%;
+        height: 300px;
+         float: right; 
+        margin-left: 100px;  
+    }
+
+         .cornor h5{
+         margin-left: 100px;
+         }
+         .cornor p{
+         margin-left: 100px;
+         }
+         .cornor button{
+         margin-left: 100px;
+         }
+
+.footer nav ul {
+    float: right;
+    margin-right: 400px;
+    margin-top: 0px;
+}
+.footer ul {
+    float: right;
+    margin-right: 0px;
+    
+}
+
 }
