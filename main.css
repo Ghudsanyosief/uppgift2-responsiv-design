@@ -69,42 +69,46 @@ html{
     font-size: 24px;
     font: robota;
    }
-   .main img{
-    width: 75%px;
+   .main address img{
+    width: 363px;
     height: 219px;
-   
+   margin-top: 0px;
    }
    main h3{
     font-size: 20px;
     font: robota;
           
    }
-   .main img:nth-child(4){
+   .main address img:nth-child(4){
     width: 10px;
     height: 10px;
    
    }
-   .main img:nth-child(5){
+   .main address img:nth-child(5){
      width: 10px;
     height: 10px;
    
    }
-.main img:nth-child(6){
+.main address img:nth-child(6){
     width: 10px;
     height: 10px;
    
    }
-   .main img:nth-child(7){
+   .main address img:nth-child(7){
      width: 10px;
     height: 10px;
     
    }
-   .main img:nth-child(8){
+   .main address img:nth-child(8){
     width: 10px;
     height: 10px;
     
    }
-  .main p{
+   .main em{
+    font-size: 12px;
+    font-family: roboto;
+   }
+  .main #paragraf1{
     font-size: 15px;
     font-family: robota;
     
@@ -115,27 +119,33 @@ html{
         height: 22px;
         color: white;
         font-size: 16px;
-        float: right;
-        margin-bottom: 200px;
-      
+        /*float: right;*/
+        margin-bottom: 50px;
+       margin-left: 200px;
   }
-   .tank{
-    text-align: center;
-  }
-  .tank button{
-background-color: #8ACFE5;
+  .main #sitebtn{
+    background-color: #8ACFE5;
         width: 200px;
         height: 33px;
         color: black;
         float: none;
         margin-bottom: 10px;
-       margin-top: 50px
-    
+       margin-top: 10px;
+    text-align: center;
   }
-  .tank p{
+  .main section{
+    display: none;
+  }
+   .main small{
+    display: none;
+  }
    
+  .main #online1{
+         /*float: none;*/
+         text-align: center;
         margin-bottom: 50px;
         font-size: 15px;
+        
   }
     .middle{
         background-color: #011827;
@@ -250,7 +260,7 @@ background-color: #8ACFE5;
     list-style: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   
 .container{
     display: grid;
@@ -302,6 +312,70 @@ background-color: #8ACFE5;
 .content p:nth-child(2){
        display: block ;
     }
+    .main{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
+        
+    }
+    .main h2{
+        display: none;
+    }
+    .main h6{
+        
+        font-size: 35px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    .main address{
+        margin-top: 100px;
+    }
+   .main section{
+    display: block;
+    margin-top: 0px;
+   
+    
+  }
+  .main small{
+    display: block;
+   margin-top: 100px;
+  }
+   
+    .main h4{
+        font-size: 20px;
+         font: robota;
+    }
+    .main h5{
+        font-size: 20px;
+         font: robota;
+    }
+    
+   .main #sitebtn{
+    display: none;
+   }
+   .main a{
+    display: none;
+   }
+    .main section #hakerimg1{
+         width: 363px;
+    height: 219px;
+    }
+     .main section img {
+         width: 10px;
+         height: 10px;
+    }
+     .main small #hakerimg2{
+         width: 363px;
+    height: 219px;
+    }
+     .main small img{
+         width: 10px;
+         height: 10px;
+    }
+   
+              
+    
    .right h4{
         margin-right: 100px;
     }
@@ -322,7 +396,7 @@ background-color: #8ACFE5;
          width: 50%;
         height: 300px;
          float: right; 
-        margin-left: 100px;  
+         margin-left: 100px;  
     }
 
          .cornor h5{
