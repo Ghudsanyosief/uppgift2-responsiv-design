@@ -209,29 +209,32 @@ html{
     }
 .footer{
   background-color:#011827;
-       font-size: 15px;
+       font-size: 18px;
     font-family: robota;
    color: white;
    text-align:justify;
     }
 .footer h6{
-     font-size: 15px;
+     font-size: 18px;
     font-family: robota;
     font-weight: bold;
     margin-bottom: 0px;
    padding-top: 50px;
-   padding-left: 5px;
+   padding-left: 10px;
+   margin-top: 30px;
 }
 .footer p{
- font-size: 15px;    
+ font-size: 18px;    
     margin-top: 0px;
+    padding-left: 10px;
     }
 .footer nav ul{
     list-style: none;
-    font-size: 15px;
+    font-size: 18px;
     font-family: robota;
     color: white;
     padding-bottom: 50px;
+    padding-left: 10px;
     }
 .footer nav ul li a{
    color: white; 
@@ -258,6 +261,10 @@ html{
 }
 .footer ul li{
     list-style: none;
+}
+.footer bottom ul{
+    padding-left: 10px;
+    font-size: 18px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -409,15 +416,16 @@ html{
          margin-left: 100px;
          }
 
-.footer nav ul {
-    float: right;
-    margin-right: 400px;
-    margin-top: 0px;
-}
-.footer ul {
-    float: right;
-    margin-right: 0px;
-    
-}
-
+   .footer{
+        display: grid;
+        grid-template-columns: auto 12rem 12rem;
+        grid-template-rows: auto;
+        
+    }  
+    .footer nav {
+         margin-top: 30px;
+    }
+    .footer bottom {
+        margin-top: 30px;
+    }
 }
