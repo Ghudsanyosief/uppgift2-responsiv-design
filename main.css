@@ -132,7 +132,7 @@ html{
         margin-bottom: 10px;
        margin-top: 10px;
     text-align: center;
-    margin-left: 100px;
+    /*margin-left: 100px;*/
   }
   .main #clickbtn3{
     display: none;
@@ -428,6 +428,7 @@ html{
         left: 630px;
         /* margin-top: 50px;
         margin-bottom: 50px;*/
+         
    }
     
    .main a{
