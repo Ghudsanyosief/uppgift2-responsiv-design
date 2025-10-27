@@ -61,6 +61,11 @@ html{
     font: roboto;
     font-size: 18px;
     }
+    .content em{
+    margin-top: 20px;
+    font: roboto;
+    font-size: 15px;
+    }
     .content p:nth-child(2){
        display: none; 
     }
@@ -216,7 +221,7 @@ html{
        font-size: 18px;
     font-family: robota;
    color: white;
-   text-align:justify;
+  
     }
 .footer h6{
      font-size: 18px;
@@ -237,8 +242,12 @@ html{
     font-size: 18px;
     font-family: robota;
     color: white;
-    padding-bottom: 50px;
     padding-left: 10px;
+    /*padding-left: 0px;*/
+    margin-bottom: 30px;
+    }
+    .footer nav{
+    margin-bottom: 0px;    
     }
 .footer nav ul li a{
    color: white; 
@@ -266,9 +275,12 @@ html{
 .footer ul li{
     list-style: none;
 }
-.footer bottom ul{
-    padding-left: 10px;
-    font-size: 18px;
+footer bottom ul{
+     padding-left: 10px;
+      margin-bottom: 50px;
+}
+.footer bottom{
+    margin-bottom: 50px;
 }
 
 @media screen and (min-width: 481px) {
@@ -314,13 +326,12 @@ html{
          width: 363px;
     height: 219px;
     }
-    /*.main address  #sitebtn{
-        margin-left: 400px;
-    }*/
+   
     .main small{
     display:none;
    
-  }}
+  }
+}
 @media screen and (min-width: 1280px) {
   
 .container{
@@ -433,10 +444,7 @@ html{
         position: absolute;
         top: 1230px;
         left: 420px;
-        /*text-align: center;
-         
-       /* margin-top: 50px;
-        margin-bottom: 50px;*/
+        
     }
    .main #sitebtn{
     display: block;
@@ -444,9 +452,7 @@ html{
     position: absolute;
         top: 1220px;
         left: 630px;
-        /* margin-top: 50px;
-        margin-bottom: 50px;*/
-         
+       
    }
     
    .main a{
