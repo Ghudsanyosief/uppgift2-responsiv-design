@@ -25,7 +25,7 @@ html{
         font-weight: bold;
         font-size: 24px;
         margin-bottom: 50px;
-    
+        gap: 20;
        }
        .left{
               text-align: center;
@@ -47,7 +47,7 @@ html{
     }
     .left p{
         margin-bottom: 50px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .content img{
       width: 63px;
@@ -60,13 +60,13 @@ html{
        .content p{
     font-style: italic;
     font: roboto;
-    font-size: 20px;
+    font-size: 18px;
     }
     .content p:nth-child(2){
        display: none; 
     }
    .main h2{
-    font-size: 24px;
+    font-size: 22px;
     font: robota;
    }
    .main address img{
@@ -132,6 +132,7 @@ html{
         margin-bottom: 10px;
        margin-top: 10px;
     text-align: center;
+    margin-left: 100px;
   }
   .main #clickbtn3{
     display: none;
@@ -287,6 +288,12 @@ html{
     .main section{
     display: block;
     margin-top: 0px;
+    
+    }
+    .main h6{
+        font-size: 22px;
+        margin-top:40px;
+        margin-bottom: 10px;
     }
     .main section #hakerimg1{
          width: 363px;
@@ -299,7 +306,7 @@ html{
 @media screen and (min-width: 1280px) {
   
 .container{
-  /*  display: grid;*/
+   display: grid;
     grid-template-columns: auto;
     background-color: white;
 }
@@ -365,16 +372,17 @@ html{
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: auto;
        margin-bottom: 50px; 
+       
     }
     .main h2{
         display: none;
     }
     .main h6{
         
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         margin-top: 50px;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .main address{
         margin-top: 100px;
@@ -407,14 +415,15 @@ html{
         position: absolute;
         top: 1230px;
         left: 420px;
-        text-align: center;
+        /*text-align: center;
+         
        /* margin-top: 50px;
         margin-bottom: 50px;*/
     }
    .main #sitebtn{
     display: block;
     text-align: center;
-     position: absolute;
+    position: absolute;
         top: 1220px;
         left: 630px;
         /* margin-top: 50px;
@@ -445,7 +454,7 @@ html{
         
           margin-top: 100px; 
 }
-    }
+    
 
          
     
