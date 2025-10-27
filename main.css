@@ -4,9 +4,7 @@
 html{
     font-size: 20px;
 }
-.body{
-    background-color: blue;
-}
+
 .header{
    background-color: #011827;
    padding: 0.5rem;
@@ -18,6 +16,7 @@ html{
     width: 128px;
     height: 82px;
     float: left;
+    margin-right: 20px;
        }       
        .header h1{
         color: white;
@@ -25,7 +24,7 @@ html{
         font-weight: bold;
         font-size: 24px;
         margin-bottom: 50px;
-        gap: 20;
+        margin-left: 50px;
        }
        .left{
               text-align: center;
@@ -109,7 +108,7 @@ html{
     font-family: roboto;
    }
   .main #paragraf1{
-    font-size: 15px;
+    font-size: 20px;
     font-family: robota;
     
   }
@@ -278,7 +277,23 @@ html{
     grid-template-columns: auto;
     background-color: white;
 }
-
+ .header ul{
+    display: block;
+      list-style: none;
+    font-size: 15px;
+    font-family: robota;
+    color: white;
+   display: flex;
+   text-align: center;
+   gap: 70px;
+}
+.header ul li a{
+    color: white; 
+  text-decoration-line: none;
+}
+.header ul li:first-child{
+    padding-left: 130px;
+}
   .main{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -292,13 +307,16 @@ html{
     }
     .main h6{
         font-size: 22px;
-        margin-top:40px;
+        margin-top:30px;
         margin-bottom: 10px;
     }
     .main section #hakerimg1{
          width: 363px;
     height: 219px;
     }
+    /*.main address  #sitebtn{
+        margin-left: 400px;
+    }*/
     .main small{
     display:none;
    
@@ -379,7 +397,7 @@ html{
     }
     .main h6{
         
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
         margin-top: 50px;
         margin-bottom: 15px;
