@@ -61,11 +61,8 @@ html{
     font: roboto;
     font-size: 18px;
     }
-    .content em{
-    margin-top: 20px;
-    font: roboto;
-    font-size: 15px;
-    }
+   
+ 
     .content p:nth-child(2){
        display: none; 
     }
