@@ -22,7 +22,7 @@ html{
         color: white;
         font: 'ROBOTO';
         font-weight: bold;
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 50px;
         margin-left: 50px;
        }
@@ -52,6 +52,7 @@ html{
       width: 63px;
         height: 62px;
         float: left;  
+       margin-right: 20px;
     }
     .content img:nth-child(3){
         display: none;
@@ -60,12 +61,16 @@ html{
     font-style: italic;
     font: roboto;
     font-size: 18px;
+     margin-left: 50px;
     }
    
- 
+  .content span{
+    display: block;
+   }
     .content p:nth-child(2){
        display: none; 
     }
+    
    .main h2{
     font-size: 22px;
     font: robota;
@@ -218,7 +223,8 @@ html{
        font-size: 18px;
     font-family: robota;
    color: white;
-  
+   padding-bottom: 30px;
+  padding-top: 20px;
     }
 .footer h6{
      font-size: 18px;
@@ -227,7 +233,7 @@ html{
     margin-bottom: 0px;
    padding-top: 50px;
    padding-left: 10px;
-   margin-top: 30px;
+   margin-top:20px;
 }
 .footer p{
  font-size: 18px;    
@@ -286,11 +292,16 @@ footer bottom ul{
     grid-template-columns: auto;
     background-color: white;
 }
+ .header h1{
+    font-size: 30px;
+    font: roboto;
+        font-weight: bold;
+}
  .header ul{
     display: block;
       list-style: none;
     font-size: 15px;
-    font-family: robota;
+    font-family: roboto;
     color: white;
    display: flex;
    text-align: center;
@@ -303,6 +314,7 @@ footer bottom ul{
 .header ul li:first-child{
     padding-left: 130px;
 }
+ 
   .main{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -335,6 +347,11 @@ footer bottom ul{
    display: grid;
     grid-template-columns: auto;
     background-color: white;
+}
+ .header h1{
+    font-size: 35px;
+    font: roboto;
+        font-weight: bold;
 }
 
 .header ul{
@@ -388,11 +405,18 @@ footer bottom ul{
         width: 63px;
         height: 62px; 
     display: inline;
+    margin-left: 30px;
     
     }
 .content p:nth-child(2){
        display: block ;
     }
+     .content span{
+    display: block;
+    font: roboto;
+    font-size: 15px;
+    margin-top: 10px;
+   }
     .main{
         display: grid;
         grid-template-columns: 33% 33% 33%;
@@ -519,9 +543,10 @@ footer bottom ul{
         grid-template-rows: auto;
         
     }  
+    
     .footer nav {
          margin-top: 30px;
-    }
+            }
     .footer bottom {
         margin-top: 30px;
     }
