@@ -383,12 +383,12 @@ footer bottom ul{
         height: 33px;
         color: white; 
        position: absolute;
-        top: 415px;
+        top: 430px;
         left: 610px;
     }
      .left #clickbtn2{
         position: absolute;
-        top: 390px;
+        top: 405px;
         left: 820px;
      }
 
@@ -539,7 +539,7 @@ footer bottom ul{
 
    .footer{
         display: grid;
-        grid-template-columns: auto 12rem 12rem;
+        grid-template-columns: 50% 25% 25%;
         grid-template-rows: auto;
         
     }  
