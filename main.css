@@ -8,6 +8,7 @@ html{
 .header{
    background-color: #011827;
    padding: 0.5rem;
+   
   }
   .header ul{
     display: none;
@@ -17,15 +18,31 @@ html{
     height: 82px;
     float: left;
     margin-right: 20px;
+    margin-top: 10px;
        }       
        .header h1{
         color: white;
         font: 'ROBOTO';
         font-weight: bold;
         font-size: 22px;
+        width: 60px;
+        display: inline-block;
         margin-bottom: 50px;
-        margin-left: 50px;
+        margin-left: 5px;
+        margin-top: 10px;
        }
+       #menybtn{
+    border: none;
+    background-color: #011827;
+     float: right;
+     margin-top: 10px;
+}
+#menybtn img{
+    
+    width: 50px;
+    height: 26px;
+    
+}
        .left{
               text-align: center;
        }
@@ -292,10 +309,15 @@ footer bottom ul{
     grid-template-columns: auto;
     background-color: white;
 }
+
  .header h1{
     font-size: 30px;
     font: roboto;
         font-weight: bold;
+        width: auto;
+}
+  #menybtn{
+    display: none;
 }
  .header ul{
     display: block;
@@ -348,12 +370,16 @@ footer bottom ul{
     grid-template-columns: auto;
     background-color: white;
 }
+
  .header h1{
     font-size: 35px;
     font: roboto;
         font-weight: bold;
+        width: auto;
 }
-
+ #menybtn{
+    display: none;
+}
 .header ul{
     display: block;
       list-style: none;
