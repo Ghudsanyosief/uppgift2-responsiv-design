@@ -13,8 +13,19 @@
      margin-right: 30px;
       width: 36px;
     height: 40px;
+     animation-name: movebutton;
+     animation-duration: 1s;
+     animation-fill-mode: forwards;
      
       }
+ @keyframes movebutton{
+    0%{
+        opacity: 0;
+         }
+    100%{
+       opacity: 1;
+           }
+ }     
 #closebtn img{
     display: block;
         width: 36px;
@@ -29,8 +40,22 @@
     color: white;
   margin-top: 289px;
    text-align: center;
-   
-  }
+   animation-name: listmove;
+    animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+
+}
+
+@keyframes listmove {
+    0% {
+        opacity: 0;
+       
+    }
+
+}
+  
+  
 .header ul li a{
     color: white; 
   text-decoration-line: none;
