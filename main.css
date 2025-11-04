@@ -43,6 +43,9 @@ html{
     height: 26px;
     
 }
+#closebtn{
+    display: none;
+}
        .left{
               text-align: center;
        }
@@ -319,6 +322,9 @@ footer bottom ul{
   #menybtn{
     display: none;
 }
+#closebtn{
+    display: none;
+}
  .header ul{
     display: block;
       list-style: none;
@@ -378,6 +384,9 @@ footer bottom ul{
         width: auto;
 }
  #menybtn{
+    display: none;
+}
+#closebtn{
     display: none;
 }
 .header ul{
