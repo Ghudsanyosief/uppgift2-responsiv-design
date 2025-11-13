@@ -105,8 +105,11 @@ html{
     }
     
    .main h2{
-    font-size: 22px;
-    font: robota;
+    font-size: 32px;
+        font-weight: 400;
+        font-style: Regular;
+        justify-content: center;
+    font-family: "Robota"
    }
    .main address img{
     width: 363px;
@@ -164,10 +167,16 @@ html{
   }
   .main #sitebtn{
     background-color: #8ACFE5;
-        width: 200px;
-        height: 33px;
+         width: 308px;
+        height: 66px;
+        font-size: 24px;
+        font-family: "Roboto";
+        font-style: bold;
+        font-weight: 700;
+        border: none;
         color: black;
         float: none;
+        justify-content: center;
         margin-bottom: 10px;
        margin-top: 10px;
     text-align: center;
@@ -372,9 +381,14 @@ footer bottom ul{
     
     }
     .main h6{
-        font-size: 22px;
-        margin-top:30px;
-        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: Regular;
+        font-family: "Roboto";
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 15px;
+       
     }
     .main section #hakerimg1{
          width: 363px;
@@ -461,6 +475,7 @@ footer bottom ul{
     }
     .content{
         display: flex;
+        justify-content: center;
          margin-bottom: 50px; 
       margin-top: 50px; 
 }
@@ -503,17 +518,23 @@ footer bottom ul{
     }
     .main h6{
         
-        font-size: 28px;
-        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        font-style: Regular;
+        font-family: "Roboto";
+        justify-content: center;
         margin-top: 50px;
         margin-bottom: 15px;
+        
     }
     .main address{
         margin-top: 100px;
+        
     }
    .main section{
     display: block;
     margin-top: 0px;
+    
    
     
   }
@@ -533,20 +554,33 @@ footer bottom ul{
      .main #clickbtn3{
         display: inline;
         background-color: #E3170A;
-       width: 200px;
-        height: 33px;
+        width: 308px;
+        height: 66px;
+        font-size: 24px;
+        font-family: "Roboto";
+        font-style: bold;
+        font-weight: 700;
         color: white; 
+        border: none;
         position: absolute;
-        top: 1230px;
+        top: 1630px;
         left: 420px;
-        
+        justify-content: center;
     }
    .main #sitebtn{
     display: block;
     text-align: center;
+     width: 308px;
+        height: 66px;
+        font-size: 24px;
+        font-family: "Roboto";
+        font-style: bold;
+        font-weight: 700;
+        border: none;
+    justify-content: center;
     position: absolute;
-        top: 1220px;
-        left: 630px;
+        top: 1620px;
+        left: 750px;
        
    }
     
@@ -556,6 +590,7 @@ footer bottom ul{
     .main section #hakerimg1{
          width: 363px;
     height: 219px;
+    margin-bottom: 10px;
     }
      .main section img {
          width: 10px;
