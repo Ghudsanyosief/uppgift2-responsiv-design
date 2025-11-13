@@ -59,8 +59,13 @@ html{
     .left #clickbtn2{
         display: inline;
         background-color: #8ACFE5;
-        width: 200px;
-        height: 33px;
+        width: 308px;
+        height: 66px;
+        font-size: 24px;
+        font-family: "Roboto";
+        font-style: bold;
+        font-weight: 700;
+        border: none;
         margin-top: 25px;
                        
     }
@@ -73,19 +78,27 @@ html{
         height: 62px;
         float: left;  
        margin-right: 20px;
+       margin-top: 10px;
     }
     .content img:nth-child(3){
         display: none;
     }
        .content p{
     font-style: italic;
-    font: roboto;
-    font-size: 18px;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
      margin-left: 50px;
+     width: 343px;
+     height: 139px;
     }
    
   .content span{
     display: block;
+    font-style: regular;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
    }
     .content p:nth-child(2){
        display: none; 
@@ -342,7 +355,11 @@ footer bottom ul{
 .header ul li:first-child{
     padding-left: 130px;
 }
- 
+ .left img{
+    margin-bottom: 0px;
+    height: 368px;
+    min-width: 481px;
+}
   .main{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -376,6 +393,11 @@ footer bottom ul{
     grid-template-columns: auto;
     background-color: white;
 }
+ body {
+    justify-content: center;
+    margin: auto;
+    width: 1280px;
+  }
 
  .header h1{
     font-size: 35px;
@@ -409,22 +431,29 @@ footer bottom ul{
 
 .left img{
     margin-bottom: 0px;
-    
+    height: 468px;
+    width: 1280px;
+    margin-bottom: 50px;
 }
   .left #clickbtn{
         display: inline;
         background-color: #E3170A;
-       width: 200px;
-        height: 33px;
+        width: 308px;
+        height: 66px;
+        font-size: 24px;
+        font-family: "Roboto";
+        font-style: bold;
+        font-weight: 700;
         color: white; 
+        border: none;
        position: absolute;
-        top: 430px;
+        top: 600px;
         left: 610px;
     }
      .left #clickbtn2{
         position: absolute;
-        top: 405px;
-        left: 820px;
+        top: 575px;
+        left: 930px;
      }
 
 .left p{
@@ -441,15 +470,25 @@ footer bottom ul{
         height: 62px; 
     display: inline;
     margin-left: 30px;
+    margin-top: 10px;
     
     }
 .content p:nth-child(2){
        display: block ;
+       font-style: italic;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+     margin-left: 50px;
+     width: 343px;
+     height: 139px;
     }
      .content span{
     display: block;
-    font: roboto;
-    font-size: 15px;
+   font-style: regular;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
     margin-top: 10px;
    }
     .main{
