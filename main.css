@@ -53,20 +53,28 @@ html{
         width: 100%;
         height: 274px;
     }
+      .btnlist1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  z-index: 99;
+}
     .left #clickbtn{
         display: none;
     }
     .left #clickbtn2{
         display: inline;
+         align-content: center;
         background-color: #8ACFE5;
-        width: 308px;
-        height: 66px;
+       width: 15rem;
+        height: 3rem;
         font-size: 24px;
         font-family: "Roboto";
         font-style: bold;
         font-weight: 700;
         border: none;
-        margin-top: 25px;
+       /* margin-top: 25px;*/
                        
     }
     .left p{
@@ -165,6 +173,13 @@ html{
         margin-bottom: 50px;
        margin-left: 200px;
   }
+ .btnlist2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  z-index: 99;
+}
   .main #sitebtn{
     background-color: #8ACFE5;
          width: 308px;
@@ -178,7 +193,7 @@ html{
         float: none;
         justify-content: center;
         margin-bottom: 10px;
-       margin-top: 10px;
+      /* margin-top: 10px;*/
     text-align: center;
     /*margin-left: 100px;*/
   }
@@ -449,25 +464,41 @@ footer bottom ul{
     width: 1280px;
     margin-bottom: 50px;
 }
+ .btnlist1 {
+     align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+   /* list-style: none;*/
+    width: 1280px;
+  }
   .left #clickbtn{
-        display: inline;
+        display: block;
+        align-content: center;
         background-color: #E3170A;
-        width: 308px;
-        height: 66px;
+         width: 15rem;
+        height: 3rem;
         font-size: 24px;
         font-family: "Roboto";
         font-style: bold;
         font-weight: 700;
         color: white; 
         border: none;
-       position: absolute;
+        margin-top: -3.8rem;
+      /* position: absolute;
         top: 600px;
-        left: 610px;
+        left: 610px;*/
     }
      .left #clickbtn2{
-        position: absolute;
+       /* display: inline-block;*/
+        align-content: center;
+        margin-top: -3.8rem;
+        width: 15rem;
+        height: 3rem;
+       /* position: absolute;
         top: 575px;
-        left: 930px;
+        left: 930px;*/
      }
 
 .left p{
@@ -509,7 +540,7 @@ footer bottom ul{
     .main{
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        grid-template-rows: auto;
+        grid-template-rows: auto ;
        margin-bottom: 50px; 
        
     }
@@ -551,36 +582,53 @@ footer bottom ul{
         font-size: 20px;
          font: robota;
     }
+     .btnlist2 {
+     align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    justify-content: center;
+   /* list-style: none;*/
+    width: 1280px;
+  }
      .main #clickbtn3{
-        display: inline;
+        align-content: center;
+        display: block;
         background-color: #E3170A;
-        width: 308px;
-        height: 66px;
+         width: 15rem;
+        height: 3rem;
         font-size: 24px;
         font-family: "Roboto";
         font-style: bold;
         font-weight: 700;
         color: white; 
         border: none;
-        position: absolute;
+         align-content: center;
+          margin-top: 37px;
+       /* position: absolute;
         top: 1630px;
         left: 420px;
-        justify-content: center;
+        justify-content: center;*/
+        
     }
    .main #sitebtn{
-    display: block;
+   /* display: inline-block;*/
+   display: block;
     text-align: center;
-     width: 308px;
-        height: 66px;
+      width: 15rem;
+        height: 3rem;;
         font-size: 24px;
         font-family: "Roboto";
         font-style: bold;
         font-weight: 700;
         border: none;
-    justify-content: center;
+         align-content: center;
+         margin-left: 10px;
+        
+   /* justify-content: center;
     position: absolute;
         top: 1620px;
-        left: 750px;
+        left: 750px;*/
        
    }
     
