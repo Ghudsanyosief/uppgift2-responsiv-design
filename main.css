@@ -112,7 +112,7 @@ html{
        display: none; 
     }
     
-   .main h2{
+    h2{
     font-size: 32px;
         font-weight: 400;
         font-style: Regular;
@@ -395,7 +395,7 @@ footer bottom ul{
     margin-top: 0px;
     
     }
-    .main h6{
+   /* .main h6{
         font-size: 30px;
         font-weight: 400;
         font-style: Regular;
@@ -404,7 +404,7 @@ footer bottom ul{
         margin-top: 50px;
         margin-bottom: 15px;
        
-    }
+    }*/
     .main section #hakerimg1{
          width: 363px;
     height: 219px;
@@ -544,34 +544,53 @@ footer bottom ul{
        margin-bottom: 50px; 
        
     }
-    .main h2{
+   /* .main h2{
         display: none;
     }
-    .main h6{
-        
+
+   .main h6{
+         
         font-size: 30px;
         font-weight: 400;
         font-style: Regular;
         font-family: "Roboto";
-        justify-content: center;
+        text-align: center;
         margin-top: 50px;
         margin-bottom: 15px;
         
+    }*/
+    h2{
+        text-align: center;
     }
     .main address{
-        margin-top: 100px;
-        
+     background-color: white;
+  border: #011827;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.233);
+    margin-bottom: 1.25rem;
+  margin-left: 0.62rem;
+  width: 364px;    
     }
    .main section{
     display: block;
-    margin-top: 0px;
-    
-   
-    
+   background-color: white;
+  border: #011827;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.233);
+    margin-bottom: 1.25rem;
+  margin-left: 0.62rem;
+  width: 364px;    
+         
   }
   .main small{
     display: block;
-   margin-top: 100px;
+   background-color: white;
+  border: #011827;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.233);
+    margin-bottom: 1.25rem;
+  margin-left: 0.62rem;
+  width: 364px;    
   }
    
     .main h4{
@@ -639,6 +658,14 @@ footer bottom ul{
          width: 363px;
     height: 219px;
     margin-bottom: 10px;
+    }
+       .main address #hakerimg{
+         width: 363px;
+    height: 219px;
+    }
+    .main address img {
+         width: 10px;
+         height: 10px;
     }
      .main section img {
          width: 10px;
