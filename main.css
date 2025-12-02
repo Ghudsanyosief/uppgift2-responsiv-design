@@ -125,8 +125,9 @@ html{
    margin-top: 0px;
    }
    main h3{
-    font-size: 20px;
-    font: robota;
+    font-size: 1.60rem;
+  font-weight: 400;
+  text-align: left; 
           
    }
    .main address img:nth-child(4){
@@ -159,8 +160,11 @@ html{
     font-family: roboto;
    }
   .main #paragraf1{
-    font-size: 20px;
-    font-family: robota;
+   font-size: 1rem;
+  font-weight: 400;
+  padding: 0.43rem;
+  margin: 0;
+  text-align: justify;
     
   }
   .main button{
@@ -593,14 +597,13 @@ footer bottom ul{
   width: 364px;    
   }
    
-    .main h4{
-        font-size: 20px;
-         font: robota;
+    .main h3{
+          margin-left: 0.6rem;
     }
-    .main h5{
-        font-size: 20px;
-         font: robota;
-    }
+    .main #paragraf1{
+          margin-left: 0.6rem;
+  }
+ 
      .btnlist2 {
      align-items: center;
     display: flex;
