@@ -119,7 +119,7 @@ html{
         justify-content: center;
     font-family: "Robota"
    }
-   .main address img{
+   #hakerimg{
     width: 363px;
     height: 219px;
    margin-top: 0px;
@@ -129,6 +129,11 @@ html{
   font-weight: 400;
   text-align: left; 
           
+   }
+    .main address img{
+    width: 10px;
+    height: 10px;
+   
    }
    .main address img:nth-child(4){
     width: 10px;
@@ -184,7 +189,7 @@ html{
   list-style: none;
   z-index: 99;
 }
-  .main #sitebtn{
+  #sitebtn{
     background-color: #8ACFE5;
          width: 308px;
         height: 66px;
@@ -201,7 +206,7 @@ html{
     text-align: center;
     /*margin-left: 100px;*/
   }
-  .main #clickbtn3{
+   #clickbtn3{
     display: none;
     
   }
@@ -613,7 +618,7 @@ footer bottom ul{
    /* list-style: none;*/
     width: 1280px;
   }
-     .main #clickbtn3{
+      #clickbtn3{
         align-content: center;
         display: block;
         background-color: #E3170A;
@@ -626,14 +631,14 @@ footer bottom ul{
         color: white; 
         border: none;
          align-content: center;
-          margin-top: 37px;
+          
        /* position: absolute;
         top: 1630px;
         left: 420px;
         justify-content: center;*/
         
     }
-   .main #sitebtn{
+    #sitebtn{
    /* display: inline-block;*/
    display: block;
     text-align: center;
@@ -646,7 +651,7 @@ footer bottom ul{
         border: none;
          align-content: center;
          margin-left: 10px;
-        
+        margin-top: 5px;
    /* justify-content: center;
     position: absolute;
         top: 1620px;
@@ -654,7 +659,7 @@ footer bottom ul{
        
    }
     
-   .main a{
+    a{
     display: none;
    }
     .main section #hakerimg1{
