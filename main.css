@@ -237,19 +237,30 @@ html{
     }
     .middle p{
         color: white;
-        font-size: 18px;
-        font-family: roboto;
+         font-weight: 400;
+         font-family: "Roboto", sans-serif;
+         font-style: normal;
+        font-size: 28px;
         text-align: center;
         padding-top: 50px;
-       
+       width: 439px;
     }
     .middle button{
-        border-color: #8ACFE5;
-       color: white;
+       
         background-color: #011827;
          width: 200px;
         height: 33px;
         margin-bottom: 50px;
+        border-color: #8acfe5;
+        border-radius: 0.25rem;
+        color: #8acfe5;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        width: 15rem;
+        height: 3rem;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
     }
     .right img{
         width: 100%;
@@ -725,12 +736,29 @@ footer bottom ul{
     }
    
     .middle{
-        
+        justify-items: center;
           margin-top: 100px; 
 }
-    
+ .middle p{
+ 
+  justify-content: center;
+        color: white;
+         font-weight: 400;
+         font-family: "Roboto", sans-serif;
+         font-style: normal;
+        font-size: 28px;
+        text-align: center;
+        padding-top: 50px;
+       width: 632px;
+    }   
 
-         
+    .middle button{
+      border-color: #8acfe5;
+  border-radius: 0.25rem;
+  color: #8acfe5;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+    }     
     
    .right h4{
         margin-right: 100px;
