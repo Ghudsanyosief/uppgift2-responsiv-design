@@ -129,7 +129,8 @@ html{
     font-size: 1.60rem;
   font-weight: 400;
   text-align: left; 
-   margin-left: 0.6rem;       
+   margin-left: 0.6rem;    
+   font-style: normal   
    }
     .main address{
      background-color: white;
@@ -175,8 +176,12 @@ html{
     
    }
    .main em{
-    font-size: 12px;
-    font-family: roboto;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+     font-family: "Roboto", sans-serif;
+     margin-left: 150px;
+     
    }
   .main #paragraf1{
    font-size: 1rem;
@@ -470,7 +475,14 @@ footer bottom ul{
   width: 364px;    
          
   }
-    
+    .main em{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+     font-family: "Roboto", sans-serif;
+     margin-left: 150px;
+     
+   } 
     
    /* .main h6{
         font-size: 30px;
@@ -670,7 +682,22 @@ footer bottom ul{
   margin-left: 0.62rem;
   width: 364px;    
   }
-   
+   .main section em{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+     font-family: "Roboto", sans-serif;
+     margin-left: 170px;
+     
+   }
+   .main small em{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+     font-family: "Roboto", sans-serif;
+     margin-left: 170px;
+     
+   }
     .main h3{
           margin-left: 0.6rem;
     }
