@@ -55,7 +55,12 @@
            }
 }
   
-  
+ h2{
+    display: none;
+ } 
+  .btnlist2{
+    display: none;
+  }
 .header ul li a{
     color: white; 
   text-decoration-line: none;
