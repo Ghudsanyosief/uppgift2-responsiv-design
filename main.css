@@ -140,6 +140,10 @@ html{
   margin-left: 0.62rem;
   width: 364px;    
     }
+    #star{
+     margin-left: 1rem;  
+       
+    }
     .main address img{
     width: 10px;
     height: 10px;
