@@ -129,8 +129,17 @@ html{
     font-size: 1.60rem;
   font-weight: 400;
   text-align: left; 
-          
+   margin-left: 0.6rem;       
    }
+    .main address{
+     background-color: white;
+  border: #011827;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.233);
+    margin-bottom: 1.25rem;
+  margin-left: 0.62rem;
+  width: 364px;    
+    }
     .main address img{
     width: 10px;
     height: 10px;
@@ -171,7 +180,7 @@ html{
   padding: 0.43rem;
   margin: 0;
   text-align: justify;
-    
+   margin-left: 0.6rem; 
   }
   .main button{
  background-color: #E3170A;
@@ -294,6 +303,7 @@ html{
         border: none;
          border-radius: 0.25rem;
          align-content: center;
+         margin-bottom: 50px;
     }
     .cornor img{
          width: 100%;
@@ -327,6 +337,7 @@ html{
         border: none;
          border-radius: 0.25rem;
          align-content: center;
+         margin-bottom: 50px;
     }
 .footer{
   background-color:#011827;
@@ -444,10 +455,19 @@ footer bottom ul{
        margin-bottom: 50px; 
     }
     .main section{
-    display: block;
-    margin-top: 0px;
     
-    }
+     display: block;
+   background-color: white;
+  border: #011827;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.233);
+    margin-bottom: 1.25rem;
+  margin-left: 0.62rem;
+  width: 364px;    
+         
+  }
+    
+    
    /* .main h6{
         font-size: 30px;
         font-weight: 400;
