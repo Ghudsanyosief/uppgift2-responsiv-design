@@ -424,10 +424,12 @@ footer bottom ul{
 }
 
  .header h1{
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
-    font: roboto;
-        font-weight: bold;
-        width: auto;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 2rem;
+    width: auto;
 }
   #menybtn{
     display: none;
@@ -518,10 +520,12 @@ footer bottom ul{
   }
 
  .header h1{
-    font-size: 35px;
-    font: roboto;
-        font-weight: bold;
-        width: auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+    margin-top: 2rem;
+    width: auto;
 }
  #menybtn{
     display: none;
