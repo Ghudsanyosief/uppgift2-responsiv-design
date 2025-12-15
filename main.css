@@ -116,7 +116,7 @@ html{
     h2{
     font-size: 32px;
         font-weight: 400;
-        font-style: Regular;
+        font-style: normal;
         justify-content: center;
     font-family: "Robota"
    }
@@ -477,10 +477,19 @@ footer bottom ul{
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
        margin-bottom: 50px; 
+       justify-content: center;
     }
-    .main section{
-    
-     display: block;
+     .main address{
+     background-color: white;
+  border: #011827;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.233);
+    margin-bottom: 1.25rem;
+  margin-left: 2rem;
+  width: 364px;    
+    }
+   .main section{
+    display: block;
    background-color: white;
   border: #011827;
   border-radius: 0.5rem;
@@ -488,7 +497,7 @@ footer bottom ul{
     margin-bottom: 1.25rem;
   margin-left: 0.62rem;
   width: 364px;    
-         
+    gap: 30;     
   }
     .main em{
     font-size: 14px;
@@ -534,6 +543,42 @@ footer bottom ul{
         padding-top: 50px;
        width: 632px;
     }  
+     .content{
+        display: flex;
+        justify-content: center;
+         margin-bottom: 50px; 
+      margin-top: 50px; 
+}
+
+  .content img:nth-child(3){
+        width: 63px;
+        height: 62px; 
+    display: inline;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    }
+.content p:nth-child(2){
+       display: block ;
+       font-style: italic;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+     margin-left: 50px;
+     width: 343px;
+     height: 139px;
+    }
+     .content span{
+    display: block;
+   font-style: regular;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+   }
+    h2{
+        text-align: center;
+    }
 }
 @media screen and (min-width: 1280px) {
   
