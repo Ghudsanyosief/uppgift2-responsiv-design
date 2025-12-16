@@ -579,6 +579,41 @@ footer bottom ul{
     h2{
         text-align: center;
     }
+    .right h4{
+        margin-right: 100px;
+    }
+    .right p{
+        margin-right: 100px;
+    }
+    .right button{
+        margin-right: 100px;
+        margin-bottom: 10px;
+        
+    }
+    .right img{
+       width: 50%; 
+       height: 300px;
+       float: left;
+       margin-right: 100px;
+    }
+     .cornor img{
+         width: 50%;
+        height: 300px;
+         float: right; 
+         margin-left: 100px;  
+         margin-top: 0px;
+    }
+
+         .cornor h5{
+         margin-left: 100px;
+         }
+         .cornor p{
+         margin-left: 100px;
+         }
+         .cornor button{
+         margin-left: 100px;
+         margin-bottom: 50px;
+         }
 }
 @media screen and (min-width: 1280px) {
   
