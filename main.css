@@ -75,6 +75,7 @@ html{
         font-style: bold;
         font-weight: 700;
         border: none;
+        border-radius: 0.25rem;
         
        /* margin-top: 25px;*/
                        
@@ -105,7 +106,7 @@ html{
    
   .content span{
     display: block;
-    font-style: regular;
+    font-style: normal;
     font-family: "Roboto";
     font-size: 18px;
     font-weight: 400;
@@ -229,6 +230,7 @@ margin-bottom: 50px;
         font-style: bold;
         font-weight: 700;
         border: none;
+         border-radius: 0.25rem;
         color: black;
         float: none;
         justify-content: center;
@@ -925,7 +927,7 @@ footer bottom ul{
          border-radius: 0.25rem;
          align-content: center;
          margin-left: 10px;
-        margin-top: 5px;
+        margin-top: 10px;
    /* justify-content: center;
     position: absolute;
         top: 1620px;
