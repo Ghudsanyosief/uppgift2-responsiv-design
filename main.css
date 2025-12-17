@@ -420,7 +420,10 @@ footer bottom ul{
 .footer bottom{
     margin-bottom: 50px;
 }
-
+.footer bottom ul li:first-child{
+   font-weight: bold; 
+   margin-bottom: 5px;
+}
 @media screen and (min-width: 481px) {
     .container{
   /*  display: grid;*/
@@ -609,6 +612,22 @@ footer bottom ul{
             }
     .footer bottom {
         margin-top: 30px;
+    }
+     .footer h6{
+     font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    
+   margin-left: 70px;
+}
+.footer p{
+ font-size: 18px;    
+    margin-top: 0px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 70px;
+    width: 416px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -1003,6 +1022,22 @@ footer bottom ul{
         grid-template-rows: auto;
         
     }  
+    .footer h6{
+     font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    
+   margin-left: 70px;
+}
+.footer p{
+ font-size: 18px;    
+    margin-top: 0px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 70px;
+    width: 416px;
+    }
     
     .footer nav {
          margin-top: 30px;
