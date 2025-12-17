@@ -118,7 +118,9 @@ html{
         font-weight: 400;
         font-style: normal;
         justify-content: center;
-    font-family: "Robota"
+    font-family: "Robota";
+margin-bottom: 50px;
+    
    }
    #hakerimg{
     width: 363px;
@@ -141,48 +143,51 @@ html{
   margin-left: 0.62rem;
   width: 364px;    
     }
+    .rating{
+      display: flex;
+
+    }
     #star{
      margin-left: 1rem;  
        
     }
     .main address img{
-    width: 10px;
-    height: 10px;
-   
+    width: 20px;
+    height: 20px;
+   margin-right: 5px;
    }
    .main address img:nth-child(4){
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
    
    }
    .main address img:nth-child(5){
-     width: 10px;
-    height: 10px;
+     width: 20px;
+    height: 20px;
    
    }
 .main address img:nth-child(6){
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
    
    }
    .main address img:nth-child(7){
-     width: 10px;
-    height: 10px;
+     width: 20px;
+    height: 20px;
     
    }
    .main address img:nth-child(8){
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     
    }
-   .main em{
+   .main span{
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
      font-family: "Roboto", sans-serif;
-     margin-left: 150px;
-     
-   }
+     margin-left: 100px;
+              }
   .main #paragraf1{
    font-size: 1rem;
   font-weight: 400;
@@ -351,14 +356,14 @@ html{
 .footer{
   background-color:#011827;
        font-size: 18px;
-    font-family: robota;
+   font-family: "Roboto";
    color: white;
    padding-bottom: 30px;
   padding-top: 20px;
     }
 .footer h6{
      font-size: 18px;
-    font-family: robota;
+    font-family: "Roboto";
     font-weight: bold;
     margin-bottom: 0px;
    padding-top: 50px;
@@ -373,7 +378,7 @@ html{
 .footer nav ul{
     list-style: none;
     font-size: 18px;
-    font-family: robota;
+    font-family: "Roboto";
     color: white;
     padding-left: 10px;
     /*padding-left: 0px;*/
@@ -438,35 +443,21 @@ footer bottom ul{
     display: none;
 }
  .header ul{
-   /* display: block;
-      list-style: none;
-    font-size: 15px;
-    font-family: roboto;
-    color: white;
-   display: flex;
-   text-align: center;
-   gap: 70px;*/
-
-   display: block;
+      display: block;
     display: flex;
       list-style: none;
     gap: 6rem;
     margin-left: 50px;
 }
 .header ul li a{
-   /* color: white; 
-  text-decoration-line: none;*/
-
-   color: white; 
+     color: white; 
   text-decoration-line: none;
   font-family: "Roboto", sans-serif;
     font-style: bold;
     font-size: 24px;
     font-weight: 700;
 }
-/*.header ul li:first-child{
-    padding-left: 130px;
-}*/
+
  .left img{
     margin-bottom: 0px;
     height: 368px;
@@ -499,25 +490,17 @@ footer bottom ul{
   width: 364px;    
     gap: 30;     
   }
-    .main em{
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-     font-family: "Roboto", sans-serif;
-     margin-left: 150px;
-     
-   } 
     
-   /* .main h6{
-        font-size: 30px;
-        font-weight: 400;
-        font-style: Regular;
-        font-family: "Roboto";
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 15px;
-       
-    }*/
+    .rating2{
+      display: flex;
+
+    }
+        .main section img{
+    width: 20px;
+    height: 20px;
+   margin-right: 5px;
+   }
+   
     .main section #hakerimg1{
          width: 363px;
     height: 219px;
@@ -667,7 +650,7 @@ footer bottom ul{
   text-decoration-line: none;
   font-family: "Roboto", sans-serif;
     font-style: bold;
-    font-size: 1.3rem;
+    font-size: 24px;
     font-weight: 700;
 }
 /*.header ul li:first-child{
@@ -817,14 +800,54 @@ footer bottom ul{
      margin-left: 170px;
      
    }
-   .main small em{
+   .rating2{
+      display: flex;
+
+    }
+    
+       
+   .main section #star3{
+    width: 20px;
+    height: 20px;
+    
+   }
+   .main section #star2{
+    width: 20px;
+    height: 20px;
+    
+   }
+   .main section #star4{
+    width: 20px;
+    height: 20px;
+    
+   }
+    .main section #star5{
+    width: 20px;
+    height: 20px;
+    }
+   .main section #star{
+    width: 20px;
+    height: 20px;
+    
+   }
+   
+    .rating3{
+      display: flex;
+
+    }
+   .main small img{
+    width: 20px;
+    height: 20px;
+   margin-right: 5px;
+   }
+   
+   .main span{
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
      font-family: "Roboto", sans-serif;
-     margin-left: 170px;
-     
-   }
+     margin-left: 100px;
+              }
     .main h3{
           margin-left: 0.6rem;
     }
@@ -897,20 +920,20 @@ footer bottom ul{
     height: 219px;
     }
     .main address img {
-         width: 10px;
-         height: 10px;
+         width: 20px;
+         height: 20px;
     }
      .main section img {
-         width: 10px;
-         height: 10px;
+         width: 20px;
+         height: 20px;
     }
      .main small #hakerimg2{
          width: 363px;
     height: 219px;
     }
      .main small img{
-         width: 10px;
-         height: 10px;
+         width: 20px;
+         height: 20px;
     }
    
     .middle{
