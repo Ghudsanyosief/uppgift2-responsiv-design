@@ -19,6 +19,7 @@ html{
     float: left;
     margin-right: 20px;
     margin-top: 10px;
+    margin-left: 10px;
        }       
        .header h1{
         color: white;
@@ -460,7 +461,9 @@ footer bottom ul{
     font-size: 24px;
     font-weight: 700;
 }
-
+.header ul li:first-child{
+   margin-left: 100px;
+}
  .left img{
     margin-bottom: 0px;
     height: 368px;
@@ -609,6 +612,7 @@ footer bottom ul{
     
     .footer nav {
          margin-top: 30px;
+         margin-left: 50px;
             }
     .footer bottom {
         margin-top: 30px;
@@ -662,7 +666,7 @@ footer bottom ul{
     display: flex;
       list-style: none;
     gap: 6rem;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .header ul li a{
     color: white; 
@@ -671,6 +675,9 @@ footer bottom ul{
     font-style: bold;
     font-size: 24px;
     font-weight: 700;
+}
+.header ul li:first-child{
+   margin-left: 50px;
 }
 /*.header ul li:first-child{
     padding-left: 130px;
@@ -1041,8 +1048,12 @@ footer bottom ul{
     
     .footer nav {
          margin-top: 30px;
+         margin-left: 50px;
             }
     .footer bottom {
         margin-top: 30px;
+    }
+    .footer ul{
+      margin-top: 30px;
     }
 }
